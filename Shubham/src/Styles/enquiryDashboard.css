@@ -1,0 +1,195 @@
+.enquiry-dashboard {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.action-bar {
+  margin-bottom: 20px;
+  background-color: #e6ede8;
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #90CAF9;
+}
+
+.action-bar h2 {
+  color: #275664;
+  font-size: 40px;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 52px;
+}
+
+.nav-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-enquiry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-enquiry .icons img {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header-enquiry img {
+  color: #50777d;
+  background-color: #e6ede8;
+  font-size: 18px;
+}
+
+.action-bar input {
+  width: 100%;
+  max-width: 220px;
+  height: 40px;
+  padding: 0px 8px;
+  border: 1px solid #d3dfd6;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #f1f5f2;
+  color: #275664;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 19px;
+  outline: none;
+}
+
+.add-button {
+  cursor: pointer;
+  width: 100%;
+  max-width: 186px;
+  height: 40px;
+  padding: 0px 8px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #50777d;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 18px;
+  outline: none;
+}
+
+.enquiries-list {
+  background-color: #f1f5f2;
+  overflow-x: auto;
+}
+
+.enquiries-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f1f5f2;
+  border-radius: 12px;
+}
+
+.enquiries-list th,
+.enquiries-list td {
+  border-top: 1px solid #dedede;
+  padding: 10px;
+  text-align: left;
+}
+
+.enquiries-list th {
+  color: #275664;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.enquiries-list td {
+  color: #50777d;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.email-archive-button {
+  cursor: pointer;
+  width: 72px;
+  height: 24px;
+  padding: 0px 8px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #d3dfd6;
+  color: #275664;
+  font-size: 12px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 16px;
+  outline: none;
+}
+
+.status-button {
+  cursor: pointer;
+  width: 72px;
+  height: 24px;
+  padding: 0px 8px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 16px;
+  outline: none;
+}
+
+.status-pending {
+  background-color: #4297a9;
+}
+
+.status-ongoing {
+  background-color: #f1f5f2;
+  color: #000000;
+  border: 1px solid #d3dfd6;
+}
+
+.status-done {
+  background-color: #275664;
+}
+
+.status-new {
+  background-color: #4297a9;
+}
+
+.enquiries-list .type {
+  color: #50777d;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 18px;
+}
+
+@media (max-width: 768px) {
+  .action-bar h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .action-bar input,
+  .action-bar button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-input {
+    flex-direction: column;
+  }
+}
+.add-button{
+  width: 186px;
+}

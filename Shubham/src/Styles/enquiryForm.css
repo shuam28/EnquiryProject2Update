@@ -1,0 +1,261 @@
+/* src/components/EnquiryForm.css */
+*body {
+  font-family: "Poppins";
+}
+
+.enquiry-page input{
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;
+}
+hr {
+  border-top: 2px solid gray;
+}
+.enquiry-nav.card{
+  width: 1140px;
+  height: 73px;
+  background-color: #e6ede8;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.enquiry-nav.card label{
+  color: #50777d;
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 28px;
+}
+.enquiry-nav.card select{
+  width: 180px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #d3dfd6;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;
+}
+.enquiry-nav .Select__control {
+  width: 293px;
+  border-radius: 12px;
+  border: 1px solid #d3dfd6;
+}
+.enquiry-nav .Select__single-value {
+  display: flex;
+  align-items: center;
+}
+
+.enquiry-form {
+  padding-bottom: 20px;
+}
+.form-header label {
+  font-weight: 800;
+  font-size: large;
+}
+.form-header {
+  background-color: #e2ede2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.form-header button {
+  cursor: pointer;
+  color: #ffffff;
+  top: 48px;
+  width: 120px;
+  height: 40px;
+  padding: 0px 8px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 18px;
+  outline: none;
+  background-color: #50777d;
+}
+.form-sections {
+  display: flex;
+  background-color: #f1f5f2;
+}
+.venue-sections {
+  margin-top: 20px;
+  width: 1140px;
+  height: 592px;
+  background-color: #f1f5f2;
+}
+.form-section {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+}
+.form-section h5 {
+  color: #275664;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 26px;
+}
+.form-section hr{
+  top: 607px;
+  left: 280px;
+  height: 2px;
+  background-color: #d3dfd6;
+  border-radius: 2px;
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.form-group label {
+  width: 30%;
+  margin-right: 10px;
+}
+.enquiry-nav label {
+  color: #275664;
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 28px;
+}
+.enquiry-nav ::placeholder {
+  color: #275664;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 26px;
+}
+.enquiry-nav button {
+  cursor: pointer;
+  top: 48px;
+  left: 1327px;
+  width: 83px;
+  height: 40px;
+  padding: 0px 8px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #50777d;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 19px;
+  outline: none;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.subHeading{
+  color: #275664;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 18px;
+}
+.event-details  select,  #event-date input ,  #enquiry-date input, #venue-a-phone input, #venue-b-phone input, #planner-name input, #planner-phone input{
+  top: 251px;
+  left: 841px;
+  width: 219px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #d3dfd6;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;
+}
+.client-section input{
+  top: 251px;
+  left: 310px;
+  width: 484px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;
+}
+.detail-card{
+  top: 129px;
+  left: 287px;
+  width: 1140px;
+  height: 400px;
+  background-color: #f1f5f2;
+}
+#venue-a input{
+  top: 650px;
+  left: 310px;
+  width: 484px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+}
+#venue-a-contact input, #company-name input{  top: 748px;
+  width: 240px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;}
+#venue-b input{
+  top: 650px;
+  left: 841px;
+  width: 555px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;
+}
+#planner-email input, #venue-b-contact input{top: 748px;
+  width: 298px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;}
